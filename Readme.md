@@ -35,3 +35,8 @@ penting!
 folder <code>save_model</code> akan diisi dengan model yang telah di training
 folder <code>IndoBERTweet-HateSpeech</code> akan diisi dengan model IndoBERTweet-HateSpeech
 </p>
+
+<p>
+git pull
+untuk update model IndoBERTweet-HateSpeech
+</p>
