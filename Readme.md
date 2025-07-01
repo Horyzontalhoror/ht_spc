@@ -1,42 +1,33 @@
-<p>
-butakan venv python
-<code>python -m venv venv</code>
-</p>
+<h1>Installasi</h1>
 
-<p>
-aktifkan venv:
-<code>venv\Scripts\activate</code>
-</p>
+<p>Butuhkan venv Python? Cukup jalankan perintah berikut:</p>
 
-<p>
-install requirements:
-<code>pip install -r requirements.txt</code>
-</p>
+<pre><code>python -m venv venv</code></pre>
 
-<p>
-clone model IndoBERTweet-HateSpeech:
-<code>git clone https://huggingface.co/Exqrch/IndoBERTweet-HateSpeech</code>
-</p>
+<p>Setelah itu, aktifkan venv dengan perintah:</p>
 
-<p>
-jalankan program:
-<code>app.py</code>
-atau
-semua file <code>.bat</code>
-</p>
+<pre><code>venv\Scripts\activate</code></pre>
 
-<p>
-untuk mematikan venv:
-<code>venv\Scripts\deactivate</code>
-</p>
+<p>Install semua kebutuhan dengan perintah:</p>
 
-<p>
-penting!
-folder <code>save_model</code> akan diisi dengan model yang telah di training
-folder <code>IndoBERTweet-HateSpeech</code> akan diisi dengan model IndoBERTweet-HateSpeech
-</p>
+<pre><code>pip install -r requirements.txt</code></pre>
 
-<p>
-git pull
-untuk update model IndoBERTweet-HateSpeech
-</p>
+<p>Kemudian, clone model IndoBERTweet-HateSpeech dengan perintah:</p>
+
+<pre><code>git clone https://huggingface.co/Exqrch/IndoBERTweet-HateSpeech</code></pre>
+
+<p>Jalankan program dengan perintah:</p>
+
+<pre><code>app.py</code></pre>
+
+<p>Atau, jalankan semua file <code>.bat</code></p>
+
+<p>Untuk mematikan venv, jalankan perintah:</p>
+
+<pre><code>venv\Scripts\deactivate</code></pre>
+
+<p><strong>Penting!</strong> Folder <code>save_model</code> akan diisi dengan model yang telah di training. Folder <code>IndoBERTweet-HateSpeech</code> akan diisi dengan model IndoBERTweet-HateSpeech.</p>
+
+<p>Untuk update model IndoBERTweet-HateSpeech, jalankan perintah:</p>
+
+<pre><code>git pull</code></pre>
