@@ -1,0 +1,26 @@
+# Abaikan file Python cache
+__pycache__/
+*.py[cod]
+
+# Abaikan file environment
+.env
+.venv/
+env/
+venv/
+
+# Abaikan file konfigurasi editor
+.vscode/
+.idea/
+
+# Abaikan file log
+*.log
+
+# Abaikan file database SQLite
+*.sqlite3
+
+# Abaikan file hasil testing
+*.pytest_cache/
+
+# Abaikan file model
+save_model/
+IndoBERTweet-HateSpeech/
